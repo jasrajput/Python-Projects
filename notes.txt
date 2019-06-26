@@ -1,0 +1,87 @@
+1. if you want only one block of code to run, use an if - elif -
+else chain. If more than one block of code needs to run, use a series of
+independent if statements.
+
+2. dictionaries are not ordered, they can’t be sliced like lists
+
+3. The setdefault() method is a nice shortcut to ensure that a key exists.The
+   first argument passed to the method is the key to check for, and the second
+   argument is the value to set at that key if the key does not exist. If the key
+   does exist, the setdefault() method returns the key’s value. (dictionary)
+
+4. Fortunately, dictionaries have a get() method that takes two
+  arguments: the key of the value to retrieve and a fallback value to return if
+  that key does not exist. (dictionary)
+
+5. range(len(list)) return the index of a list.
+   for ex: 0, 1, 2, 3
+
+6. The continue statement tells Python to ignore the rest of
+    the loop and return to the beginning.
+
+7. active = True
+   while active:
+        message = input(prompt)
+        if message == 'quit':
+            active = False
+        else:
+            print(message)
+
+    We set the variable active to True so the program starts in an active
+    state. Doing so makes the while statement simpler because no comparison is
+    made in the while statement itself; the logic is taken care of in other parts of
+    the program. As long as the active variable remains True , the loop will con-
+    tinue running v.
+    In the if statement inside the while loop, we check the value of message
+    once the user enters their input. If the user enters 'quit' w, we set active
+    to False , and the while loop stop
+
+
+8.  When you write a class, you define the general
+    behavior that a whole category of objects can have.
+
+9. Making an object from a class is called instantiation and you work with
+    instances of a class.
+
+10. self , which is a reference to the instance itself; it gives the individual instance access to
+    the attributes and methods in the class.
+
+
+11. The super() function at x is a special function that helps Python make
+    connections between the parent and child class.This line tells Python to
+    ElectricCar instance all the attributes of its parent class.
+
+12. If the first index in a slice is greater than or equal to the second index, Python returns an empty string.
+      Ex: s = 'foobar'
+      s[2:2] == s[4:2]
+      #true
+
+
+ 13.  A set can be thought of simply as a well-defined collection of distinct objects, typically called elements or members.
+        1. ) Sets are unordered.
+        2. ) Set elements are unique. Duplicate elements are not allowed.
+        3. ) A set itself may be modified, but the elements contained in the set must be of an immutable type.
+        4. ) Don’t forget that Set elements must be immutable. 
+            For example, a tuple may be included in a set:
+             But lists and dictionaries are mutable, so they can’t be set elements:
+
+14. Iterables :
+                        1.) Strings are also iterable. so a string can be passed to set() as well.
+                        2. ) argument to set() is an iterable
+                        
+
+15. A frozenset, which is in all respects exactly like a set, except that a frozenset is immutable
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
